@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Preference
+        android:key="a1"
+        android:selectable="true"
+        android:summary="summary1"
+        android:title="title1" />
+
+    <Preference
+        android:layout="@layout/activity_main2"
+        android:selectable="true" />
+
+    <Preference
+        android:key="a2"
+        android:summary="summary2"
+        android:title="title2" />
+
+    <Preference
+        android:layout="@layout/activity_main3"
+        android:selectable="true" />
+</PreferenceScreen>
